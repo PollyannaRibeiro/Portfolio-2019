@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--[ header ] -->
+<body>
+  <header>  
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg  height="24" 
+                viewBox="0 0 24 24" 
+                width="24" xmlns="http://www.w3.org/2000/svg">
+                <path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav">
+        <li><a href="#">Logo</a></li>
+      </ul>
+    </nav>
+
+    <div class="side-nav" id="side-menu">
+      <a href="#" class="btn-close" 
+          onclick="closeSideMenu()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+  </header>
+
+  <!--[ container ] -->
+  <main>
+    <div class="container">
+    content here
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In 
+    eget tortor turpis. Praesent ligula sem, tincidunt a mauris non, 
+    mattis tincidunt dolor. Fusce varius ullamcorper erat, quis varius 
+    lorem sagittis ut. Sed vitae urna eu nibh egestas interdum ac id 
+    nunc. Duis bibendum hendrerit diam id lacinia. Nunc non sodales 
+    elit. Phasellus efficitur interdum metus blandit posuere. Praesent 
+    aliquet, leo ac efficitur lacinia, lorem tellus aliquet ligula, 
+    vitae tincidunt dui neque sit amet turpis. Aliquam lacus tortor, 
+    efficitur in erat sit amet, placerat molestie justo. Etiam dignissim 
+    condimentum tincidunt. Duis consequat orci quis turpis faucibus 
+    consequat. Praesent pretium magna a euismod iaculis.
+
+    Quisque suscipit mi mollis risus cursus, sit amet mattis lorem 
+    dictum. Fusce pulvinar aliquam eros. Nam non tellus dignissim, 
+    finibus ligula id, aliquet ex. Nulla non pellentesque nulla. Nunc 
+    auctor molestie turpis, a commodo ligula scelerisque at. Etiam 
+    sodales vitae velit a congue. Phasellus iaculis dui ipsum, 
+    sollicitudin luctus lorem scelerisque sit amet. Nam at suscipit 
+    quam. Vestibulum vitae elit non ipsum feugiat lobortis. Fusce 
+    fringilla massa convallis, elementum eros eget, dapibus sapien. 
+    Aliquam maximus at odio nec scelerisque. Donec dui urna, sodales a 
+    urna non, tempus feugiat eros. Nam pharetra massa a justo volutpat, 
+    sit amet posuere nunc tincidunt.
+
+    Sed pulvinar tincidunt gravida. Suspendisse porta hendrerit 
+    tincidunt. Etiam quis risus tellus. Aenean porttitor, mauris nec 
+    vestibulum placerat, est purus scelerisque quam, in tincidunt 
+    turpis nunc eu mauris. Pellentesque est neque, tristique at tellus 
+    eu, efficitur maximus erat. Integer velit ipsum, porta eget 
+    elementum in, vulputate nec diam. Donec luctus odio ex, sit amet 
+    consequat enim hendrerit quis. Morbi mollis dolor consequat, 
+    rhoncus felis sed, bibendum mauris. Phasellus auctor gravida odio 
+    laoreet sodales. Quisque odio ante, facilisis non tempus nec, porta 
+    vel elit.
+
+    Nulla tempus cursus tortor sed ultricies. Morbi id dui tellus. 
+    Curabitur nulla elit, cursus vel commodo consectetur, finibus ut 
+    leo. Nullam pretium gravida varius. Suspendisse eget metus risus. 
+    Suspendisse metus orci, blandit id facilisis ut, egestas sit amet 
+    nunc. Nullam laoreet tristique mattis. Phasellus vulputate enim 
+    augue. Maecenas ac vestibulum lorem. Nulla iaculis est in neque 
+    rutrum dapibus. Quisque laoreet ex vel sem blandit dignissim. 
+    Praesent ut aliquet augue.
+
+    Curabitur vulputate condimentum commodo. Nullam scelerisque tempor 
+    imperdiet. Cras efficitur tincidunt ex eu tincidunt. Curabitur eget 
+    sem lorem. Vivamus ac diam mi. Vestibulum faucibus nulla vel dolor 
+    hendrerit, ac viverra quam aliquam. Sed interdum leo et neque 
+    scelerisque, sed facilisis elit egestas. Donec tellus nulla, 
+    porttitor ac felis sit amet, ultrices sollicitudin sapien. Maecenas 
+    a orci a nulla aliquet imperdiet. Lorem ipsum dolor sit amet, 
+    consectetur adipiscing elit. Sed tristique ligula vitae felis 
+    blandit, ultrices feugiat ipsum semper.
+    </div> 
+  </main>
+
+  <!--[ footer ] -->
+  <footer id="footer">
+    <div class="container">
+      <p class="footer-block">Place sticky footer content here.</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>   
