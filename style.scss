@@ -1,15 +1,32 @@
 // @import "compass/css3";
+@import 'assets/node_modules/bootstrap/scss/bootstrap.scss';
 
-$height-footer: 60px;
+
+$height-footer: 10rem;
 
 html {
   min-height: 100%;
   position: relative;
   body {
-    margin-bottom: $height-footer;
+    position: relative;
+    
+    .body-container{
+      position: relative;
+      min-height: 100vh;
+      overflow-y: scroll;
+      .main-wrap{
+        padding-bottom: $height-footer;
+      }
+    }
   }
 
   header{
+
+    .open-slide{
+      @media only screen and (min-width:901px){
+        display: none;
+      }
+    }
     #side-menu{
       width: 250px;
       background-color: rgba(0, 0, 0, 0.8);
@@ -38,11 +55,32 @@ html {
 
         }
       }
+    }
 
+    .nav-menu{
+      li{
+        display: inline-block;
+        padding: 2px 10px;
+        list-style: none;
+        color: wheat;
+      }
     }
   }
 
   main{
+    .main-img{
+      height: 50vh;
+      // overflow: hidden;
+      img{
+        width: 100vw;
+        margin-top: -10vh;
+      }
+    }
+
+    .project-cards{
+      background-color: white;
+      padding: 10px;
+    }
   }
 
   #footer {
@@ -55,5 +93,30 @@ html {
       margin: 20px 0;
     }
   }
+  .hideme{
+    // opacity: 0;
+  }
 }
 
+
+
+// $modal-dialog-margin:               .5rem !default;
+
+// .modal-dialog-scrollable {
+//   display: flex; // IE10/11
+//   max-height: calc(100% - #{$modal-dialog-margin * 2});
+
+//   .modal-content {
+//     max-height: calc(100vh - #{$modal-dialog-margin * 2}); // IE10/11
+//     overflow: hidden;
+//   }
+
+//   .modal-header,
+//   .modal-footer {
+//     flex-shrink: 0;
+//   }
+
+//   .modal-body {
+//     overflow-y: auto;
+//   }
+// }
