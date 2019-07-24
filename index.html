@@ -24,7 +24,7 @@
         </a>
       </span>
       <ul class="navbar-nav">
-        <li><a href="#">Logo</a></li>
+        <li><a href="#"><img id="logo" src="images/logo.svg"></a></li>
       </ul>
 
       <ul class="nav-menu">
@@ -52,112 +52,82 @@
     <div class="main-wrap">
 
       <main>
-        <div class="main-img" id="">
-            <img src="images/landscape.jpg" class="img-fluid" alt="Responsive image">
-        </div> <!-- main-img -->
-        
+      
         <!-- Projects -->
         <div class="projects">
-          <div class="row">
-            <div class="col-sm-4 project-cards hideme">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">WordPress Blog</h5>
-                  <p class="card-text">Site responsivo criado em wordpress</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                      more
-                  </button>
-                </div>
+
+          <div class="row color-container" >
+            <div class="col-6 lg-card" id="personal-info" >
+              <div>  
+                <h1>POLLYANNA RIBEIRO</h1>
+                <h2>FRONT-END DEVELOPER</h2>
               </div>
             </div>
-            <div class="col-sm-4 project-cards hideme">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">React - Neighborhood Map</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-                    Launch demo modal
-                  </button>
+            <div class="col-6">
+                <div class="row md-card" id="wordpress-project">
+                  <div class="">
+                    <h5 class="card-title">WordPress Blog</h5>
+                    <p class="card-text">Site responsivo criado em wordpress para um blog de viagens</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                        more
+                    </button>
+                  </div>
                 </div>
-              </div>
+                <div class="row md-card" id="ajax-project">
+                  <div class="">
+                    <h5 class="card-title">Ajax with fetch</h5>
+                    <p class="card-text">Site com requisição assincrona criado durante o curso</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ajaxWFetch">
+                        more
+                    </button>
+                  </div>
+                </div>
             </div>  
-            <div class="col-sm-4 project-cards hideme
-            ">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
+          </div>
+
+          <div class="row color-container" >
+              <div class="col-6 md-card" id="map-project">
+                <div class="">
+                    <h5 class="card-title">React - Neighborhood Map</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                      more
+                    </button>
+                  </div>
+              </div> 
+
+              <div class="col-6 md-card" id="react-project">
+                <div class="">
                   <h5 class="card-title">React - MyReads</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div>
-              </div>
-            </div>
+              </div> 
 
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">API Site</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
+              <div class="col-6 md-card" id="arcade-project">
+                <div class="">
                   <h5 class="card-title">Arcade Game</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div>
-              </div>
-            </div>  
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
+              </div> 
+              <div class="col-6 md-card" id="memory-game-project">
+                <div class="">
                   <h5 class="card-title">Memory game</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div>
-              </div>
+              </div> 
             </div>
 
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Sandbox</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
-            </div>  
-            <div class="col-sm-4 project-cards">
-              <div class="card bg-dark text-white">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
-            </div>
-          </div> <!-- row -->
+          <div class="row color-container" >
+              <div class="col-6">
+                  <div class="row md-card">3</div>
+                  <div class="row md-card">4</div>
+              </div>  
+              <div class="col-6 lg-card">1</div>
+            </div>  <!-- row -->
         </div> <!-- projects -->
 
         <!-- Modal -->
@@ -165,46 +135,46 @@
           <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">WordPress Blog Theme</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <p>Esse é o meu segundo site criado em wordpress, o primeiro foi a anos 
-                  atrás sem nenhum conhecimento da linguagem e simplismente criado para 
-                  manter meu um blog. Dessa vez, utilizei meus conhecimentos adquiridos 
-                  em JS, JQuery, estudei um pouco sobre o estilo da biblioteca pelo Codex 
-                  e utilizei pela primeira vez o Sass, o que já me garantiu um código muito 
-                  mais limpo e legível do que o anterior. Funciona corretamente em mobile, 
-                  tablet, é responsivo e fácil de usar.
+                <p>This is my second website created in WordPress.
+                  The first was the years ago, without any knowledge of the language and simply 
+                  created to keep up my blog. This time, I used my knowledge in JS, JQuery, I 
+                  studied a little bit about how WordPress works, studying Codex. And I used 
+                  Sass for the first time, which already gave me a very clean and readable code, 
+                  pretty different than the previous one. This site works properly on a mobile, 
+                  tablet or computer, it's responsive and easy to use.</p>
+                <p>This is a blog aimed for Brazilians tourists that want to understand better 
+                  London before coming to visit the city.</p>
+             
+                <h1>responsive</h1>
+                <p>Depending on the size of the device screen, it will show all the highlight 
+                  content or will remove some of them.</p>
 
-                  Tema: O blog é voltad para turistas e brasileiros que querem conhecer melhor Londres. 
-                </p>
+                <img src="images/wordpress-blog/responsive-computer.png" class="card-img" alt="responsive computer">
+                <img src="images/wordpress-blog/responsive-phone.png" class="card-img" alt="responsive phone">
 
-                <p> Responsividade:</p>
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
-                <img src="images/landscape.jpg" class="card-img" alt="...">
+                <p>I used Bootstrap to create a card column style that changes the number of columns, 
+                  depending on the size of the screen.</p>
+
+                <img src="images/wordpress-blog/blog-tablet.png" class="card-img" alt="...">
+                <img src="images/wordpress-blog/blog.computer.png" class="card-img" alt="...">
+
+                <p>Articles and other pages, also are responsive and some of them including a sidebar
+                   with ads from Google.</p>
+
+                <img src="images/wordpress-blog/article page.png" class="card-img" alt="...">
                 
-                <p> Bla bla bla final - Quisque suscipit mi mollis risus cursus, sit amet mattis lorem 
-                  dictum. Fusce pulvinar aliquam eros. Nam non tellus dignissim, 
-                  finibus ligula id, aliquet ex. Nulla non pellentesque nulla. Nunc 
-                  auctor molestie turpis, a commodo ligula scelerisque at. Etiam 
-                  sodales vitae velit a congue. Phasellus iaculis dui ipsum, 
-                  sollicitudin luctus lorem scelerisque sit amet. Nam at suscipit 
-                  quam. Vestibulum vitae elit non ipsum feugiat lobortis. Fusce 
-                  fringilla massa convallis, elementum eros eget, dapibus sapien. 
-                  Aliquam maximus at odio nec scelerisque. Donec dui urna, sodales a 
-                  urna non, tempus feugiat eros. Nam pharetra massa a justo volutpat, 
-                  sit amet posuere nunc tincidunt.</p>
-                  <a href="#">Site no ar</a>
-                  <a href="#">Código no Git</a>
-
+                <p>All the design of this site, including the logo and other details, were created by me.</p>
+                <p>To see the website, click <a href="#">here</a>.</p>
+                <p>And to see the code, go to GitHub <a href="#">here</a>.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
               </div>
             </div> <!-- modal-container -->
           </div> <!-- modal-dialog -->
@@ -213,44 +183,88 @@
         <!-- Modal 2 -->
 
         <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">React - Neighborhood Map</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>This project was the last one created on the Web development Udacity Nanodegree course.</p>
+
+                <p>I had to use Google Map API, Wikipedia API and React to build from scratch a free theme App.
+                  I chose to do an App that shows the Museums options in a part of London. </p>
+                    
+                <p>After clicking on an option, it will animate the map icon and show the content from Wikipedia, 
+                  including the name of the Museum, address, phone, rating, picture and a definition about the 
+                  respective place. </p>
+  
+                <img src="images/landscape.jpg" class="card-img" alt="...">
+                <p>This is a responsive and accessible web site. Using ARIA attributes, I built a website 
+                  that provides context for screen readers.</p>
+                
+                <p>To go to gitPage, click <a href="#">here</a></p>      
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div> <!-- modal-container -->
+          </div> <!-- modal-dialog -->
+        </div> <!-- modal-->
+
+        <!-- Modal 3 - Ajax with fetch app -->
+
+        <div class="modal fade" id="ajaxWFetch" tabindex="-1" role="dialog" aria-labelledby="ajaxWFetchTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+                  <h5 class="modal-title" id="ajaxWFetchTitle">Ajax with Fetch App</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In 
-                        eget tortor turpis. Praesent ligula sem, tincidunt a mauris non, 
-                        mattis tincidunt dolor. Fusce varius ullamcorper erat, quis varius 
-                        lorem sagittis ut. Sed vitae urna eu nibh egestas interdum ac id 
-                        nunc. Duis bibendum hendrerit diam id lacinia. Nunc non sodales 
-                        elit. Phasellus efficitur interdum metus blandit posuere. Praesent 
-                        aliquet, leo ac efficitur lacinia, lorem tellus aliquet ligula, 
-                        vitae tincidunt dui neque sit amet turpis. Aliquam lacus tortor, 
-                        efficitur in erat sit amet, placerat molestie justo. Etiam dignissim 
-                        condimentum tincidunt. Duis consequat orci quis turpis faucibus 
-                        consequat. Praesent pretium magna a euismod iaculis.</p>
-      
-                        <img src="images/landscape.jpg" class="card-img" alt="...">
+                  <p> This is an asynchronous request App made using AJAX with fetch. 
+                    The two APIs used are:</p>
+                  <ul>
+                    <li>The NY Times - to collect the articles</li>
+                    <li>Unsplash - to get the pictures</li>   
+                  </ul>
+
+                  <h1>The project</h1>
+
+                  <p>Before informing what the users are interested today, they can 
+                    see the most recent articles of the NY Times.</p> 
+
+                  <img src="images/ajax-fetch-project/first-page.png" class="card-img" alt="first page example">  
                     
-                      <p> Quisque suscipit mi mollis risus cursus, sit amet mattis lorem 
-                        dictum. Fusce pulvinar aliquam eros. Nam non tellus dignissim, 
-                        finibus ligula id, aliquet ex. Nulla non pellentesque nulla. Nunc 
-                        auctor molestie turpis, a commodo ligula scelerisque at. Etiam 
-                        sodales vitae velit a congue. Phasellus iaculis dui ipsum, 
-                        sollicitudin luctus lorem scelerisque sit amet. Nam at suscipit 
-                        quam. Vestibulum vitae elit non ipsum feugiat lobortis. Fusce 
-                        fringilla massa convallis, elementum eros eget, dapibus sapien. 
-                        Aliquam maximus at odio nec scelerisque. Donec dui urna, sodales a 
-                        urna non, tempus feugiat eros. Nam pharetra massa a justo volutpat, 
-                        sit amet posuere nunc tincidunt.</p>
+                  <p>After submitting a request, 
+                    they can see if it returns some picture and articles about the subject 
+                    that they are interested in.</p>
+                   
+                  
+                  <img src="images/ajax-fetch-project/submited-page.png" class="card-img" alt="...">  
+                  <img src="images/ajax-fetch-project/image-error-page.png" class="card-img" alt="...">  
+                  <img src="images/ajax-fetch-project/article-error-page.png" class="card-img" alt="...">  
+                  <img src="images/ajax-fetch-project/image-and-article-error-page.png" class="card-img" alt="...">  
+
+                  <p>I did not use any different style from the offered by Udacity, so this 
+                    project was only to evaluate my skills working on JS, HTML and CSS, and 
+                    not my design skills. It's also a responsive app, I used Bootstrap cards 
+                    to create responsive style.</p>
+
+                  <img src="images/ajax-fetch-project/responsive-tablet-page.png" class="card-img" alt="...">
+                  <img src="images/ajax-fetch-project/responsive-phone-page.png" class="card-img" alt="...">
+
+                  <p> Works with promises was a big challenge for me. It was like discovering a new world of 
+                    possibilities that I've never worked before.</p>
+                   
+                  <p>To go to gitPage, click <a href="#">here</a></p>  
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div> <!-- modal-container -->
             </div> <!-- modal-dialog -->
@@ -261,41 +275,28 @@
         
         <h1>Who I am...</h1>
           
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In 
-        eget tortor turpis. Praesent ligula sem, tincidunt a mauris non, 
-        mattis tincidunt dolor. Fusce varius ullamcorper erat, quis varius 
-        lorem sagittis ut. Sed vitae urna eu nibh egestas interdum ac id 
-        nunc. Duis bibendum hendrerit diam id lacinia. Nunc non sodales 
-        elit. Phasellus efficitur interdum metus blandit posuere. Praesent 
-        aliquet, leo ac efficitur lacinia, lorem tellus aliquet ligula, 
-        vitae tincidunt dui neque sit amet turpis. Aliquam lacus tortor, 
-        efficitur in erat sit amet, placerat molestie justo. Etiam dignissim 
-        condimentum tincidunt. Duis consequat orci quis turpis faucibus 
-        consequat. Praesent pretium magna a euismod iaculis.</p>
+        <p>Curiosity, creativity and readiness to learn are important points 
+          that make me what I am, someone that is always ready to learn about 
+          new technologies and doesn't be afraid of challenging yourself.</p>
 
-      <p> Quisque suscipit mi mollis risus cursus, sit amet mattis lorem 
-        dictum. Fusce pulvinar aliquam eros. Nam non tellus dignissim, 
-        finibus ligula id, aliquet ex. Nulla non pellentesque nulla. Nunc 
-        auctor molestie turpis, a commodo ligula scelerisque at. Etiam 
-        sodales vitae velit a congue. Phasellus iaculis dui ipsum, 
-        sollicitudin luctus lorem scelerisque sit amet. Nam at suscipit 
-        quam. Vestibulum vitae elit non ipsum feugiat lobortis. Fusce 
-        fringilla massa convallis, elementum eros eget, dapibus sapien. 
-        Aliquam maximus at odio nec scelerisque. Donec dui urna, sodales a 
-        urna non, tempus feugiat eros. Nam pharetra massa a justo volutpat, 
-        sit amet posuere nunc tincidunt.</p>
+        <p>I graduated in Brazilian Law and currently living in London. 
+          I decided to go back to my first career option, design. Design was my 
+          first university course, studying for 2 years, learned about product, 
+          fashion, and history of design, craft, sustainability and ergonomics. 
+          I had worked in eCommerce and digital market for some times. Also, I 
+          did some retouching works, simple web sites, creating banners and 
+          animated advertisement to social media using my limited Premiere and 
+          After Effect knowledge.</p>
 
-        <p> Quisque suscipit mi mollis risus cursus, sit amet mattis lorem 
-        dictum. Fusce pulvinar aliquam eros. Nam non tellus dignissim, 
-        finibus ligula id, aliquet ex. Nulla non pellentesque nulla. Nunc 
-        auctor molestie turpis, a commodo ligula scelerisque at. Etiam 
-        sodales vitae velit a congue. Phasellus iaculis dui ipsum, 
-        sollicitudin luctus lorem scelerisque sit amet. Nam at suscipit 
-        quam. Vestibulum vitae elit non ipsum feugiat lobortis. Fusce 
-        fringilla massa convallis, elementum eros eget, dapibus sapien. 
-        Aliquam maximus at odio nec scelerisque. Donec dui urna, sodales a 
-        urna non, tempus feugiat eros. Nam pharetra massa a justo volutpat, 
-        sit amet posuere nunc tincidunt.</p>
+        <p>In the last year, I decided to focus and deepen my knowledge in web 
+          development, learning JavaScript, also improving my skills in HTML, CSS, 
+          learning libraries like Bootstrap, Materialize, Jquery. Learning how to 
+          works with Sass, React. And how to make an app responsive and working with 
+          ARIA accessibility.</p>
+
+          <p>To see my CV, check my LinkedIn, do not hesitate to contact me if you 
+            have some questions. Feel free to browse my website to see some projects 
+            that I did.</p>
         </div> 
         
         <!-- Design -->
@@ -315,35 +316,68 @@
           sit amet posuere nunc tincidunt.</p>  
               
           <div class="row">
-            <div class="bd-example">
+            <div class="carousel-container">
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/landscape.jpg" class="d-block w-100" alt="...">
+                    <img src="images/design/bruna-photoshoot.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <h5>Photoshop</h5>
+                      <p>In this Fashion Editorial, I did all the photoshop edition -  skin smoothing, 
+                        black and white and all the details improvements needed.</p>
+                    </div>
+                  </div>
+                  <!-- <div class="carousel-item">
+                    <img src="images/design/bruna-nose-photoshoot.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Photoshop</h5>
+                    </div>
+                  </div> -->
+                  <div class="carousel-item">
+                    <img src="images/design/sandbox-site-img.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Web Design, Logo and Art</h5>
+                      <p>The project was a Fashion Editorial (University project), that I did not only 
+                        the photoshop material but also a One Page Website to present their project in a 
+                        local fashion market event</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/landscape.jpg" class="d-block w-100" alt="...">
+                    <img src="images/design/white-dresses.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <h5>Fashion Editorial - Photoshop</h5>
+                      <p>Smoothing of the wrinkled dress areas, and improvement of the contour and the focus on 
+                        the model's faces </p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/landscape.jpg" class="d-block w-100" alt="...">
+                    <img src="images/design/white-dress-photoshop.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      <h5>Fashion Editorial - Photoshop</h5>
+                      <p></p>
                     </div>
                   </div>
+                  <div class="carousel-item">
+                    <img src="images/design/logos-and-graphic.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Logos and graphic projetcs</h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/design/photography-course.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Photography</h5>
+                        <p>Some photos were taken in a photography course that I did, as a hobby.</p>
+                      </div>
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
