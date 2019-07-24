@@ -162,6 +162,12 @@ html {
     }
   }
 
+  .carousel-container{
+    .carousel-caption{
+      background-color: rgba(0,0,0,0.3)
+    }
+  }
+
   #footer {
     bottom: 0;
     width: 100%;
@@ -176,6 +182,31 @@ html {
     // opacity: 0;
   }
 }
+
+.md-card{
+  min-height: 25vh;
+  padding: 1rem;
+  background-color: white;
+  // border: 1px solid black;
+}
+
+.lg-card{
+  min-height: 50vh;
+  background-color: rgb(244, 244, 244);
+  // border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
